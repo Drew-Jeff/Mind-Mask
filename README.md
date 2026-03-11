@@ -2,7 +2,7 @@
 Real Time Face Parsing for emotion analysis
 # Mind-Mask: Privacy-Preserving Real-Time Stress Detection System
 
-A **clinical-grade, on-device edge AI solution** for real-time stress detection with 100% privacy preservation. This project implements the breakthroughs from Team A16's IEEE research to deliver stress monitoring without cloud dependency, alert fatigue, or data transmission.
+A **clinical-grade, on-device edge AI solution** for real-time stress detection with 100% privacy preservation. This project implements the breakthroughs from Drew_Jeff's IEEE research to deliver stress monitoring without cloud dependency, alert fatigue, or data transmission.
 
 > **Key Innovation**: First system achieving *both* clinical-grade accuracy (92% sensitivity) *and* true privacy preservation (zero data transmission) in real-world settings.
 
