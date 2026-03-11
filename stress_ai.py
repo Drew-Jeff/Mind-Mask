@@ -29,7 +29,7 @@ class SmartStressManager(stress.UnifiedEmotionStressSystem):
 
         # --- FREE WHATSAPP CONFIGURATION ---
         # Just put the target phone number here (Must include country code)
-        self.target_phone = '+919952935037'
+        self.target_phone = '+91-'
 
     def generate_ai_tip(self):
         self.is_generating = True
@@ -86,4 +86,5 @@ class SmartStressManager(stress.UnifiedEmotionStressSystem):
             wa_thread = threading.Thread(target=self.send_whatsapp_bg, args=(wa_message,))
             wa_thread.start()
         else:
+
             print("Skipping WhatsApp: Target phone number not configured.")
